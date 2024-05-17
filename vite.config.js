@@ -5,7 +5,8 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   build: {
     rollupOptions: {
-      external: ['@emailjs/browser'],
+      external: ['@emailjs/browser','number-counter'],
+    
     },
   },
   plugins: [react()],
